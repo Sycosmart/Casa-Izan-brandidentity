@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Casa Izan — Brand Book. Bienestar latinoamericano con carácter. Vivir con carácter. Vivir en casa." />
-<title>Casa Izan — Brand Book</title>
+<meta name="description" content="Casa Izan — Manual de Marca v2.0. Hogar, deporte y juguetes con criterio y calidez. La Paz, Bolivia · 2026." />
+<meta property="og:title" content="Casa Izan · Manual de Marca v2.0" />
+<meta property="og:description" content="Vive tu casa. Hogar, deporte y juguetes con criterio." />
+<title>Casa Izan · Manual de Marca v2.0</title>
+<link rel="icon" type="image/png" href="icono logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Bricolage+Grotesque:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -15,7 +18,7 @@
 <!-- PRELOADER -->
 <div class="preloader" id="preloader">
   <div class="preloader-content">
-    <div class="preloader-mark"></div>
+    <img src="icono logo.png" alt="Casa Izan" class="preloader-mark">
     <div class="preloader-text">Casa Izan</div>
     <div class="preloader-bar"><span></span></div>
   </div>
@@ -27,654 +30,466 @@
 <!-- SECTION DOTS -->
 <aside class="section-dots" id="sectionDots">
   <a href="#hero" data-label="Inicio"></a>
-  <a href="#manifiesto" data-label="Manifiesto"></a>
-  <a href="#valores" data-label="Valores"></a>
-  <a href="#paleta" data-label="Paleta"></a>
-  <a href="#tipografia" data-label="Tipografía"></a>
-  <a href="#logo" data-label="Logo"></a>
-  <a href="#plataformas" data-label="Plataformas"></a>
+  <a href="#que-es" data-label="Qué es"></a>
+  <a href="#alma" data-label="Alma"></a>
+  <a href="#arquetipos" data-label="Arquetipos"></a>
   <a href="#voz" data-label="Voz"></a>
-  <a href="#checklist" data-label="Checklist"></a>
+  <a href="#imagen" data-label="Imagen"></a>
+  <a href="#touchpoints" data-label="Touchpoints"></a>
+  <a href="#manifiesto" data-label="Manifiesto"></a>
+  <a href="#termometro" data-label="Termómetro"></a>
 </aside>
 
 <!-- TOAST -->
-<div class="toast" id="toast">Copiado al portapapeles</div>
+<div class="toast" id="toast">Mensaje</div>
 
 <!-- NAV -->
 <nav id="mainNav">
   <a href="#hero" class="logo">
-    <div class="logo-mark"></div>
+    <img src="icono logo.png" alt="" class="logo-mark">
     <span>Casa Izan</span>
   </a>
   <ul>
-    <li><a href="#manifiesto">Manifiesto</a></li>
-    <li><a href="#paleta">Paleta</a></li>
-    <li><a href="#tipografia">Tipografía</a></li>
-    <li><a href="#plataformas">Plataformas</a></li>
+    <li><a href="#alma">Alma</a></li>
     <li><a href="#voz">Voz</a></li>
+    <li><a href="#imagen">Imagen</a></li>
+    <li><a href="#termometro">Termómetro</a></li>
   </ul>
-  <button class="nav-cta" onclick="window.print()">Exportar PDF</button>
+  <button class="nav-cta" id="downloadPdfBtn" type="button">Descargar PDF</button>
 </nav>
 
 <!-- HERO -->
 <section class="hero" id="hero">
-  <div class="cursor-blob" id="cursorBlob"></div>
   <div class="floating-shape shape-1"></div>
   <div class="floating-shape shape-2"></div>
   <div class="floating-shape shape-3"></div>
   <div class="floating-shape shape-4"></div>
 
   <div class="hero-content">
+    <img src="Logo Casa Izan.png" alt="Casa Izan" class="hero-logo">
     <span class="hero-tag">
       <span class="pulse-dot"></span>
-      Brand Book · Versión 1.0 · 2026
+      Manual de Marca · v2.0 · La Paz, Bolivia · 2026
     </span>
     <h1 class="hero-title">
-      <span class="line"><span class="word">Vivir</span> <span class="word">con</span></span>
-      <span class="line"><span class="word accent-rosa">carácter.</span></span>
-      <span class="line"><span class="word">Vivir</span> <span class="word">en</span> <span class="word accent-sol">casa.</span></span>
+      <span class="line"><span class="word">Vive</span></span>
+      <span class="line"><span class="word">tu</span> <span class="word accent-sol">casa.</span></span>
     </h1>
-    <p class="hero-sub">Casa Izan es una filosofía de vida hecha marca. Bienestar latinoamericano que se niega a elegir entre ambición y paz interior.</p>
+    <p class="hero-sub">Hogar, deporte y juguetes bajo un mismo techo. Este es el manual que guía cómo hablamos, cómo nos vemos y cómo nos comportamos — con criterio, con calidez, con juego.</p>
     <div class="hero-actions">
-      <a href="#manifiesto" class="btn btn-primary">
-        Descubre la marca
+      <a href="#que-es" class="btn btn-primary">
+        Empezar a leer
         <span class="btn-arrow">→</span>
       </a>
-      <a href="#plataformas" class="btn btn-secondary">Ver en plataformas</a>
+      <button class="btn btn-secondary" type="button" onclick="window.print()">Descargar PDF</button>
     </div>
   </div>
 
   <div class="scroll-hint">
-    <span>Scroll</span>
+    <span>Pasa</span>
     <div class="scroll-line"></div>
   </div>
 </section>
 
-<!-- MANIFIESTO -->
-<section class="manifesto" id="manifiesto">
+<!-- QUÉ ES CASA IZAN -->
+<section class="section section-que-es" id="que-es">
   <div class="container">
-    <div class="section-label reveal"><span></span>El Manifiesto</div>
-    <blockquote class="reveal">
-      Hay una mentira que nos vendieron bien: que estar en paz es <em>bajar la intensidad</em>, apagar el ruido, pedir menos. Pero nosotros venimos de un continente que siempre supo algo distinto: que la calma se cocina a fuego lento en la misma olla que la pasión. <span class="highlight">Casa Izan nació aquí</span> —entre montañas, entre ciudades despiertas, entre gente que no quiere elegir— para recordarnos que el bienestar no es una huida sino una manera de estar presentes con todo lo que somos. No venimos a bajarte el volumen.<br><br>
-      Venimos a afinarte.
-      <span class="battle-cry">Vive con carácter. Vive en casa.</span>
+    <div class="section-label reveal"><span></span>Sección 0 · Qué es Casa Izan</div>
+    <h2 class="section-title reveal">Una tienda boliviana con criterio, no un "todo" genérico.</h2>
+    <p class="section-desc reveal">Casa Izan es una tienda multi-categoría para familias que quieren vivir su casa al máximo. Vendemos tres mundos bajo un mismo techo, elegidos porque ayudan a que una casa se viva de verdad — con juego, con movimiento, con vida cotidiana real.</p>
+
+    <div class="mundos-grid">
+      <article class="mundo-card mundo-hogar reveal">
+        <div class="mundo-icon"><div class="icon-house"></div></div>
+        <div class="mundo-content">
+          <div class="mundo-label">01 · Hogar</div>
+          <h3>Artículos y productos para la casa.</h3>
+          <p>Cocina, mesa, textiles, descanso, orden. Lo que una casa usa todos los días, elegido porque funciona — no porque se ve bonito en la foto.</p>
+          <div class="mundo-tone">Dominante: Lino + Noche · calidez seria</div>
+        </div>
+      </article>
+
+      <article class="mundo-card mundo-deporte reveal">
+        <div class="mundo-icon"><div class="icon-ball"></div></div>
+        <div class="mundo-content">
+          <div class="mundo-label">02 · Deporte</div>
+          <h3>Artículos y equipamiento deportivo.</h3>
+          <p>Fútbol, bici, entrenamiento, ropa activa. Para la cancha, el parque y el patio. Equipamiento que aguanta lo que tú le metas.</p>
+          <div class="mundo-tone">Dominante: Rosa Vivo + Noche · energía</div>
+        </div>
+      </article>
+
+      <article class="mundo-card mundo-juguetes reveal">
+        <div class="mundo-icon"><div class="icon-star"></div></div>
+        <div class="mundo-content">
+          <div class="mundo-label">03 · Juguetes</div>
+          <h3>Juguetes para niños y familias.</h3>
+          <p>Bloques, peluches, muñecas, juegos de mesa, juguetes de exterior. Elegidos por criterio, no por moda — los que aguantan cinco Navidades.</p>
+          <div class="mundo-tone">Dominante: Sol + Rosa Vivo · alegría pura</div>
+        </div>
+      </article>
+    </div>
+
+    <blockquote class="pullquote reveal">
+      "El nombre lo dice literalmente. <em>Casa Izan: tu casa con nombre propio.</em>"
     </blockquote>
   </div>
 </section>
 
-<!-- VALORES -->
-<section class="values" id="valores">
+<!-- ALMA -->
+<section class="section section-alma" id="alma">
   <div class="container">
-    <div class="section-label reveal"><span></span>El Alma</div>
-    <h2 class="section-title reveal">Cuatro valores que <em>no</em> negociamos.</h2>
+    <div class="section-label reveal"><span></span>Sección 1 · El Alma</div>
+    <h2 class="section-title reveal">Misión, visión y <em>cuatro valores</em> que no se tocan.</h2>
+
+    <div class="alma-grid">
+      <div class="alma-card reveal">
+        <div class="alma-head">Misión</div>
+        <p>Hacemos que cada casa se viva mejor. Reunimos productos para el hogar, el deporte y el juego con una curaduría que prioriza lo que funciona, dura y hace feliz a una familia boliviana real.</p>
+      </div>
+      <div class="alma-card reveal">
+        <div class="alma-head">Visión 2031</div>
+        <p>Ser la tienda multi-categoría familiar más querida de Bolivia. Presentes en La Paz, Santa Cruz y Cochabamba con tiendas físicas memorables y una plataforma online que lleva Casa Izan a todo el país.</p>
+      </div>
+      <div class="alma-card reveal alma-promise">
+        <div class="alma-head">Promesa de marca</div>
+        <p class="big-promise">Todo lo que tu casa necesita para vivirse — con <em>criterio</em>, con <em>calidez</em>, con <em>juego</em>.</p>
+      </div>
+    </div>
+
     <div class="values-grid">
-      <div class="value-card reveal">
-        <div class="value-number">01</div>
-        <h4>Presencia</h4>
-        <p>Estar, de verdad, donde uno está. No a medias, no mientras se piensa en otra cosa.</p>
-        <div class="value-hover">
-          <strong>Cómo se manifiesta:</strong>
-          Reuniones sin celulares. Respuestas que tardan lo necesario, no lo inmediato.
-        </div>
-      </div>
-      <div class="value-card reveal">
-        <div class="value-number">02</div>
-        <h4>Calidez</h4>
-        <p>La hospitalidad como principio operativo, no como decoración. Tratar como se trataría en casa.</p>
-        <div class="value-hover">
-          <strong>Cómo se manifiesta:</strong>
-          Onboarding con nombre propio. "¿Cómo estás?" antes de "¿cómo vamos?".
-        </div>
-      </div>
-      <div class="value-card reveal">
-        <div class="value-number">03</div>
-        <h4>Lucidez</h4>
-        <p>Pensar con claridad incluso cuando es incómodo. Decir lo que hay que decir, sin rodeos.</p>
-        <div class="value-hover">
-          <strong>Cómo se manifiesta:</strong>
-          Decisiones basadas en datos e intuición. Retroalimentación directa sin eufemismos.
-        </div>
-      </div>
-      <div class="value-card reveal">
-        <div class="value-number">04</div>
-        <h4>Atrevimiento</h4>
-        <p>El coraje de ser distintos cuando es más fácil parecerse. Audacia con criterio, no por capricho.</p>
-        <div class="value-hover">
-          <strong>Cómo se manifiesta:</strong>
-          Campañas que rompen el beige wellness global. Alianzas inesperadas.
-        </div>
-      </div>
+      <article class="value-card reveal" style="--accent: var(--rosa)">
+        <div class="value-num">01</div>
+        <h3>Criterio</h3>
+        <p>Vender menos, pero mejor. Cada producto en nuestras estanterías está ahí porque lo elegimos, no porque el proveedor nos lo ofreció.</p>
+        <div class="value-manifest">Catálogo curado, no saturado. Rechazamos líneas que no cumplen nuestros estándares aunque sean rentables a corto plazo.</div>
+      </article>
+      <article class="value-card reveal" style="--accent: var(--sol)">
+        <div class="value-num">02</div>
+        <h3>Calidez</h3>
+        <p>La tienda se siente como casa. Tratamos a cada cliente como a alguien que entró por la puerta a compartir un café.</p>
+        <div class="value-manifest">Saludamos por el nombre, ayudamos sin presión, resolvemos devoluciones sin pelear.</div>
+      </article>
+      <article class="value-card reveal" style="--accent: var(--rosa)">
+        <div class="value-num">03</div>
+        <h3>Juego</h3>
+        <p>Tomamos en serio la alegría. Un hogar que ríe es un hogar sano — y eso guía cómo vendemos y comunicamos.</p>
+        <div class="value-manifest">Tienda con color y música, campañas con humor, empaques divertidos, equipo que disfruta lo que hace.</div>
+      </article>
+      <article class="value-card reveal" style="--accent: var(--sol)">
+        <div class="value-num">04</div>
+        <h3>Raíz</h3>
+        <p>Somos bolivianos y lo celebramos. Trabajamos con proveedores locales cuando existen y hablamos el idioma real del país.</p>
+        <div class="value-manifest">Alianzas con artesanos y fabricantes bolivianos. Precios pensados en la realidad económica local.</div>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- PALETA -->
-<section class="palette" id="paleta">
+<!-- ARQUETIPOS -->
+<section class="section section-arquetipos" id="arquetipos">
   <div class="container">
-    <div class="section-label reveal"><span></span>La Paleta</div>
-    <h2 class="section-title reveal">Cuatro colores. <em>Cero</em> compromisos.</h2>
-    <p class="section-desc reveal">Haz click en cualquier color para copiar su HEX.</p>
+    <div class="section-label reveal"><span></span>Territorio Emocional</div>
+    <h2 class="section-title reveal">El Hombre Común <em>+ el Bufón.</em></h2>
+    <p class="section-desc reveal">Casa Izan habla para todas las familias sin jerarquías: accesible, sin pretensiones, democrática. Pero con el matiz juguetón del Bufón, porque no somos beige ni solemnes — somos la tienda donde entrar da ganas de sonreír.</p>
 
-    <div class="color-grid">
-      <div class="color-card c-sol reveal" data-hex="#FFF145">
-        <div class="color-top">
-          <div class="hex">#FFF145</div>
-          <div class="copy-icon">⧉</div>
-        </div>
-        <div>
-          <div class="color-name">Sol de<br>Mediodía</div>
-          <div class="color-emotion">Alegría lúcida</div>
-          <div class="color-specs">
-            <span>RGB 255,241,69</span>
-            <span>Acentos · CTAs</span>
-          </div>
-        </div>
-      </div>
-      <div class="color-card c-rosa reveal" data-hex="#FF355E">
-        <div class="color-top">
-          <div class="hex">#FF355E</div>
-          <div class="copy-icon">⧉</div>
-        </div>
-        <div>
-          <div class="color-name">Rosa<br>Atrevido</div>
-          <div class="color-emotion">Pasión consciente</div>
-          <div class="color-specs">
-            <span>RGB 255,53,94</span>
-            <span>Botones · Titulares</span>
-          </div>
-        </div>
-      </div>
-      <div class="color-card c-noche reveal" data-hex="#1A1B3A">
-        <div class="color-top">
-          <div class="hex">#1A1B3A</div>
-          <div class="copy-icon">⧉</div>
-        </div>
-        <div>
-          <div class="color-name">Noche de<br>Altiplano</div>
-          <div class="color-emotion">Profundidad serena</div>
-          <div class="color-specs">
-            <span>RGB 26,27,58</span>
-            <span>Tipografía · Fondos</span>
-          </div>
-        </div>
-      </div>
-      <div class="color-card c-lino reveal" data-hex="#F4EFE6">
-        <div class="color-top">
-          <div class="hex">#F4EFE6</div>
-          <div class="copy-icon">⧉</div>
-        </div>
-        <div>
-          <div class="color-name">Lino<br>Paceño</div>
-          <div class="color-emotion">Calma cálida</div>
-          <div class="color-specs">
-            <span>RGB 244,239,230</span>
-            <span>Fondos · Papelería</span>
-          </div>
-        </div>
-      </div>
+    <div class="territorio-words">
+      <div class="t-word reveal"><span>Cálido</span><small>Como entrar a la casa de alguien que te quiere.</small></div>
+      <div class="t-sep reveal">·</div>
+      <div class="t-word reveal"><span>Vibrante</span><small>Lleno de vida, color, movimiento, risa.</small></div>
+      <div class="t-sep reveal">·</div>
+      <div class="t-word reveal"><span>Cercano</span><small>Sin barreras, sin jerga, sin pretensión.</small></div>
     </div>
 
-    <div class="proportion-bar reveal">
-      <div class="prop-label">Proporción de uso recomendada</div>
-      <div class="prop-visual">
-        <div class="prop-seg" style="flex: 60; background: var(--lino); color: var(--noche);">60% Lino</div>
-        <div class="prop-seg" style="flex: 20; background: var(--noche); color: var(--lino);">20% Noche</div>
-        <div class="prop-seg" style="flex: 15; background: var(--rosa); color: var(--lino);">15% Rosa</div>
-        <div class="prop-seg" style="flex: 5; background: var(--sol); color: var(--noche);">5% Sol</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TIPOGRAFÍA -->
-<section class="typography" id="tipografia">
-  <div class="container">
-    <div class="section-label reveal"><span></span>La Tipografía</div>
-    <h2 class="section-title reveal">Dos voces. <em>Una</em> identidad.</h2>
-
-    <div class="typo-display-big reveal">
-      <span class="td-a">Aa</span>
-      <span class="td-b">Bb</span>
-      <span class="td-c">Cc</span>
+    <div class="territorio-rule reveal">
+      Si una pieza es solo <strong>cálida</strong>, es blanda. Si es solo <strong>vibrante</strong>, es ruidosa. Si es solo <strong>cercana</strong>, es aburrida. <em>Las tres, siempre.</em>
     </div>
 
-    <div class="typo-grid">
-      <div class="typo-card reveal">
-        <div class="typo-card-label">Display</div>
-        <h3 class="typo-card-name">Bricolage Grotesque</h3>
-        <p class="typo-card-desc">La voz de los titulares. Audaz, moderna, con carácter. Reemplazo libre de Stature.</p>
-        <div class="typo-specs">
-          <div class="spec-row"><span>H1 / Display</span><strong>Bold · 72pt</strong></div>
-          <div class="spec-row"><span>H2 / Section</span><strong>Bold · 48pt</strong></div>
-          <div class="spec-row"><span>H3 / Subtítulo</span><strong>Medium · 32pt</strong></div>
-        </div>
-        <div class="typo-preview display-font">Vive con carácter</div>
+    <div class="avoid-grid reveal">
+      <div class="avoid-title">Evitamos deliberadamente</div>
+      <div class="avoid-items">
+        <span>✕ Gobernante (lujo)</span>
+        <span>✕ Mago (transformación)</span>
+        <span>✕ Cuidador maternal</span>
       </div>
-      <div class="typo-card reveal">
-        <div class="typo-card-label">Cuerpo</div>
-        <h3 class="typo-card-name">Inter</h3>
-        <p class="typo-card-desc">La voz del cuerpo. Legible, humanista, sin ruido. Funciona en web, print y digital.</p>
-        <div class="typo-specs">
-          <div class="spec-row"><span>Cuerpo / Body</span><strong>Regular · 16pt</strong></div>
-          <div class="spec-row"><span>Caption</span><strong>Medium · 13pt</strong></div>
-          <div class="spec-row"><span>CTA</span><strong>SemiBold · 14pt</strong></div>
-        </div>
-        <div class="typo-preview body-font">La calma se cocina a fuego lento en la misma olla que la pasión.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- LOGO VARIATIONS -->
-<section class="logo-section" id="logo">
-  <div class="container">
-    <div class="section-label reveal"><span></span>El Logo</div>
-    <h2 class="section-title reveal">Un símbolo. <em>Seis</em> formas de usarlo.</h2>
-
-    <div class="logo-grid">
-      <div class="logo-tile reveal" style="background: var(--lino);">
-        <div class="logo-horizontal">
-          <div class="logo-mark-lg"></div>
-          <span class="logo-text" style="color: var(--noche)">Casa Izan</span>
-        </div>
-        <div class="logo-caption">Horizontal · Primario</div>
-      </div>
-      <div class="logo-tile reveal" style="background: var(--noche);">
-        <div class="logo-horizontal">
-          <div class="logo-mark-lg" style="background: var(--sol);"></div>
-          <span class="logo-text" style="color: var(--lino)">Casa Izan</span>
-        </div>
-        <div class="logo-caption" style="color: var(--lino); opacity: 0.7">Horizontal · Negativo</div>
-      </div>
-      <div class="logo-tile reveal" style="background: var(--rosa);">
-        <div class="logo-stacked">
-          <div class="logo-mark-lg" style="background: var(--lino);"></div>
-          <span class="logo-text" style="color: var(--lino); font-size: 32px;">Casa<br>Izan</span>
-        </div>
-        <div class="logo-caption" style="color: var(--lino); opacity: 0.85">Apilado · RR.SS.</div>
-      </div>
-      <div class="logo-tile reveal" style="background: var(--sol);">
-        <div class="logo-icon-only">
-          <div class="logo-mark-xl"></div>
-        </div>
-        <div class="logo-caption">Ícono · Favicon</div>
-      </div>
-      <div class="logo-tile reveal" style="background: var(--lino);">
-        <div class="logo-monogram">
-          <span style="color: var(--rosa)">Ci</span>
-        </div>
-        <div class="logo-caption">Monograma</div>
-      </div>
-      <div class="logo-tile reveal" style="background: var(--noche);">
-        <div class="logo-horizontal">
-          <div class="logo-mark-lg" style="background: var(--rosa);"></div>
-          <span class="logo-text" style="color: var(--lino)">Casa Izan</span>
-        </div>
-        <div class="logo-caption" style="color: var(--lino); opacity: 0.7">Acento Rosa</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PLATAFORMAS -->
-<section class="platforms" id="plataformas">
-  <div class="container">
-    <div class="section-label reveal"><span></span>Los Touchpoints</div>
-    <h2 class="section-title reveal">Mira cómo se ve Casa Izan en <em>el mundo real.</em></h2>
-    <p class="section-desc reveal">Seis plataformas. Una sola identidad. Haz click en cada pestaña para explorar.</p>
-
-    <div class="platform-tabs reveal">
-      <button class="platform-tab active" data-panel="ig">
-        <span class="tab-icon">◆</span>Instagram
-      </button>
-      <button class="platform-tab" data-panel="web">
-        <span class="tab-icon">◇</span>Sitio Web
-      </button>
-      <button class="platform-tab" data-panel="mobile">
-        <span class="tab-icon">▣</span>App Móvil
-      </button>
-      <button class="platform-tab" data-panel="bcard">
-        <span class="tab-icon">▤</span>Tarjeta
-      </button>
-      <button class="platform-tab" data-panel="email">
-        <span class="tab-icon">✉</span>Email
-      </button>
-      <button class="platform-tab" data-panel="signage">
-        <span class="tab-icon">▦</span>Señalización
-      </button>
-    </div>
-
-    <div class="platform-preview">
-
-      <!-- INSTAGRAM -->
-      <div class="preview-panel active" data-panel="ig">
-        <div class="ig-container">
-          <div class="ig-header">
-            <div class="ig-avatar">Ci</div>
-            <div>
-              <div class="ig-username">casaizan <span class="ig-verified">✓</span></div>
-              <div class="ig-handle">Bienestar con carácter · La Paz, BO</div>
-            </div>
-            <button class="ig-follow">Seguir</button>
-          </div>
-          <div class="ig-stats">
-            <div><strong>248</strong><span>posts</span></div>
-            <div><strong>12.4k</strong><span>seguidores</span></div>
-            <div><strong>187</strong><span>siguiendo</span></div>
-          </div>
-          <div class="ig-bio">
-            <strong>Casa Izan</strong><br>
-            Vive con carácter. Vive en casa.<br>
-            <span class="ig-link">→ casaizan.com</span>
-          </div>
-          <div class="ig-grid">
-            <div class="ig-tile ig-t1">Vive con carácter</div>
-            <div class="ig-tile ig-t2">Cinco minutos en la ventana con un café.</div>
-            <div class="ig-tile ig-t3">Martes<br>7:42am</div>
-            <div class="ig-tile ig-t4">●</div>
-            <div class="ig-tile ig-t5">Izan</div>
-            <div class="ig-tile ig-t6">No venimos a bajarte el volumen.</div>
-            <div class="ig-tile ig-t7">La calma se cocina<br>a fuego lento.</div>
-            <div class="ig-tile ig-t8">Afinar<br>&gt; Apagar</div>
-            <div class="ig-tile ig-t9">★</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- WEBSITE -->
-      <div class="preview-panel" data-panel="web">
-        <div class="web-container">
-          <div class="web-topbar">
-            <div class="web-dot r"></div>
-            <div class="web-dot y"></div>
-            <div class="web-dot g"></div>
-            <div class="web-url">🔒 casaizan.com</div>
-          </div>
-          <div class="web-nav">
-            <div class="web-nav-logo">
-              <div class="web-nav-logo-mark"></div>
-              Casa Izan
-            </div>
-            <div class="web-nav-links">
-              <span>Filosofía</span><span>Espacios</span><span>Comunidad</span><span>Contacto</span>
-            </div>
-            <button class="web-nav-btn">Empezar</button>
-          </div>
-          <div class="web-hero">
-            <div>
-              <span class="web-tag">Bienestar latinoamericano</span>
-              <h3>Vivir con <span>carácter.</span><br>Vivir en casa.</h3>
-              <p>No venimos a bajarte el volumen. Venimos a afinarte.</p>
-              <div class="web-btns">
-                <a href="#" class="web-btn">Empieza aquí →</a>
-                <a href="#" class="web-btn-ghost">Ver filosofía</a>
-              </div>
-            </div>
-            <div class="web-img">
-              <div class="web-img-shape-1"></div>
-              <div class="web-img-shape-2"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- MOBILE -->
-      <div class="preview-panel" data-panel="mobile">
-        <div class="mobile-wrap">
-          <div class="mobile-container">
-            <div class="mobile-notch"></div>
-            <div class="mobile-status">
-              <span>9:41</span>
-              <span class="mobile-status-right">◉ ▪▪▪ ▮</span>
-            </div>
-            <div class="mobile-content">
-              <div class="mobile-top">
-                <div>
-                  <div class="mobile-greeting">Buenos días, María</div>
-                  <div class="mobile-title">Hoy tocó un día <span>difícil.</span></div>
-                </div>
-                <div class="mobile-avatar">M</div>
-              </div>
-              <div class="mobile-card">
-                <div class="mobile-card-label">PAUSA DEL DÍA · 5 min</div>
-                <div class="mobile-card-title">Cinco minutos en la ventana.</div>
-                <div class="mobile-card-desc">Sin celular. Sin pendientes. Solo tú y tu café.</div>
-                <div class="mobile-card-cta">Empezar ahora →</div>
-              </div>
-              <div class="mobile-small-card">
-                <span class="mscc-label">Frase del día</span>
-                La calma se cocina a fuego lento.
-              </div>
-              <div class="mobile-nav">
-                <span>● Inicio</span>
-                <span>Pausas</span>
-                <span>Perfil</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- BUSINESS CARD -->
-      <div class="preview-panel" data-panel="bcard">
-        <div class="bcard-wrap">
-          <div class="bcard bcard-front">
-            <div class="mark"></div>
-            <div>
-              <div class="name">Casa<br>Izan</div>
-              <div class="line"></div>
-              <div class="tagline">VIVIR CON CARÁCTER</div>
-            </div>
-          </div>
-          <div class="bcard bcard-back">
-            <div>
-              <div class="person-name">María Fernández</div>
-              <div class="person-role">Directora de Experiencia</div>
-              <div class="divider"></div>
-            </div>
-            <div class="info">
-              maria@casaizan.com<br>
-              +591 2 123 4567<br>
-              La Paz, Bolivia<br>
-              <strong>casaizan.com</strong>
-            </div>
-          </div>
-        </div>
-        <p class="bcard-note">Pasa el mouse sobre las tarjetas · Papel texturizado 350g · Relieve en seco sobre el ícono</p>
-      </div>
-
-      <!-- EMAIL -->
-      <div class="preview-panel" data-panel="email">
-        <div class="email-container">
-          <div class="email-header">
-            <div class="email-header-row"><strong>De:</strong> María Fernández &lt;maria@casaizan.com&gt;</div>
-            <div class="email-header-row"><strong>Para:</strong> ti@ejemplo.com</div>
-            <div class="email-header-row"><strong>Asunto:</strong> Bienvenida a casa. Literalmente.</div>
-          </div>
-          <div class="email-body">
-            <p>Hola,</p>
-            <p>Gracias por sumarte a Casa Izan. Desde hoy, recibirás una idea a la semana —breve, concreta, lúcida— pensada para que el bienestar deje de ser una meta y empiece a ser tu manera de habitar el mundo.</p>
-            <p>No te vamos a pedir que transformes tu vida. Te vamos a acompañar a afinarla.</p>
-            <p>Nos vemos el martes.</p>
-            <div class="email-signature">
-              <div class="sig-name">María Fernández</div>
-              <div class="sig-role">Directora de Experiencia</div>
-              <div class="sig-divider"></div>
-              <div class="sig-logo">
-                <div class="sig-logo-mark"></div>
-                <div class="sig-logo-text">CASA IZAN</div>
-              </div>
-              <div class="sig-info">
-                maria@casaizan.com · +591 2 123 4567<br>
-                La Paz, Bolivia · <strong>casaizan.com</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SIGNAGE -->
-      <div class="preview-panel" data-panel="signage">
-        <div class="signage-scene">
-          <div class="signage-ceiling"></div>
-          <div class="signage-wall">
-            <div class="signage-glow"></div>
-            <div class="signage-logo">
-              Casa<br>Izan
-              <span class="accent">VIVIR CON CARÁCTER</span>
-            </div>
-          </div>
-          <div class="signage-plant"></div>
-          <div class="signage-bench"></div>
-          <div class="signage-floor"></div>
-        </div>
-        <p class="signage-note">Muro acento en Noche de Altiplano · Logo en Sol de Mediodía · Iluminación cálida 2700K · Espacio físico en La Paz, Bolivia</p>
-      </div>
-
     </div>
   </div>
 </section>
 
 <!-- VOZ -->
-<section class="voice" id="voz">
+<section class="section section-voz" id="voz">
   <div class="container">
-    <div class="section-label reveal"><span></span>La Voz</div>
-    <h2 class="section-title reveal">Cómo hablamos. Cómo <em>no</em> hablamos.</h2>
+    <div class="section-label reveal"><span></span>Sección 2 · La Voz</div>
+    <h2 class="section-title reveal">Una mamá de 38, boliviana, con <em>humor y criterio.</em></h2>
+    <p class="section-desc reveal">Casa Izan administra su casa con alegría y eficiencia. Sabe cuándo gastar más por calidad y cuándo no vale la pena. No intenta venderte — te ayuda a elegir.</p>
 
-    <div class="voice-grid">
-      <div class="voice-card do reveal">
-        <div class="voice-card-icon">✓</div>
-        <h4>Así sí</h4>
-        <ul>
-          <li>
-            <strong>"Hoy te tocó un día difícil. Tenemos una idea."</strong>
-            Segunda persona, concreto, empático.
-          </li>
-          <li>
-            <strong>"Cinco minutos en la ventana con un café."</strong>
-            Lo concreto antes que lo abstracto.
-          </li>
-          <li>
-            <strong>"No te vamos a decir que respires hondo y ya."</strong>
-            Reconoce la complejidad antes de ofrecer soluciones.
-          </li>
-          <li>
-            <strong>"Empieza por el lunes. Un lunes cualquiera."</strong>
-            Cerrar con algo accionable y memorable.
-          </li>
-        </ul>
+    <!-- TONE AXES -->
+    <div class="tone-axes">
+      <div class="axis reveal">
+        <div class="axis-labels"><span>Formal</span><span>Cercano</span></div>
+        <div class="axis-track"><div class="axis-fill" style="width:90%"></div><div class="axis-dot" style="left:90%"></div></div>
+        <div class="axis-val">90% cercano · La formalidad aleja.</div>
       </div>
-      <div class="voice-card dont reveal">
-        <div class="voice-card-icon">✗</div>
-        <h4>Así no</h4>
-        <ul>
-          <li>
-            <strong>"Transforma tu vida en 21 días."</strong>
-            Cliché de wellness global. Prohibido.
-          </li>
-          <li>
-            <strong>"¡Hola, amiguita! ¿Lista para brillar?"</strong>
-            Infantiliza al lector. Sin condescendencia.
-          </li>
-          <li>
-            <strong>"Momentos de desafío emocional."</strong>
-            Eufemismo que esconde. Mejor: "ansiedad".
-          </li>
-          <li>
-            <strong>"¡Te esperamos!!! ✨🌸💕"</strong>
-            Exceso decorativo. Sobran admiraciones y emojis.
-          </li>
-        </ul>
+      <div class="axis reveal">
+        <div class="axis-labels"><span>Serio</span><span>Juguetón</span></div>
+        <div class="axis-track"><div class="axis-fill" style="width:65%"></div><div class="axis-dot" style="left:65%"></div></div>
+        <div class="axis-val">65% juguetón · Vendemos juguetes, no seguros de vida.</div>
+      </div>
+      <div class="axis reveal">
+        <div class="axis-labels"><span>Tradicional</span><span>Moderno</span></div>
+        <div class="axis-track"><div class="axis-fill" style="width:55%"></div><div class="axis-dot" style="left:55%"></div></div>
+        <div class="axis-val">55% moderno · Sin perder el calor de barrio.</div>
+      </div>
+      <div class="axis reveal">
+        <div class="axis-labels"><span>Reservado</span><span>Expresivo</span></div>
+        <div class="axis-track"><div class="axis-fill" style="width:85%"></div><div class="axis-dot" style="left:85%"></div></div>
+        <div class="axis-val">85% expresivo · La paleta es vibrante. La voz también.</div>
       </div>
     </div>
 
+    <!-- DO / DON'T -->
+    <div class="dodont-grid">
+      <div class="do-col reveal">
+        <div class="dd-head do-head">✓ Así sí</div>
+        <div class="dd-item"><strong>Habla en "tú"</strong> — nunca "usted". <em>"¿Estás armando el cumple de tu hija?"</em></div>
+        <div class="dd-item"><strong>Nombra productos concretos.</strong> <em>"La pelota que aguanta el patio, la cocina y el gato."</em></div>
+        <div class="dd-item"><strong>Humor cotidiano, no condescendiente.</strong> <em>"Esta olla sobrevive al arroz quemado de tu suegra."</em></div>
+        <div class="dd-item"><strong>Reconoce la realidad económica.</strong> <em>"Tres precios, tres calidades. Elige el que te sirve hoy."</em></div>
+        <div class="dd-item"><strong>Celebra lo boliviano sin folklore forzado.</strong> <em>"Hecho en Cochabamba. Así de simple."</em></div>
+      </div>
+      <div class="dont-col reveal">
+        <div class="dd-head dont-head">✕ Así no</div>
+        <div class="dd-item"><strong>Lenguaje corporativo distante.</strong> <del>"Nuestro compromiso con la excelencia…"</del></div>
+        <div class="dd-item"><strong>Infantilizar los juguetes.</strong> <del>"¡Sorprende a tus pequeñitos con diversión sin fin!"</del></div>
+        <div class="dd-item"><strong>Jerga de wellness o lujo.</strong> <del>"Transforma tu hogar en un oasis de bienestar."</del></div>
+        <div class="dd-item"><strong>Promesas vacías.</strong> <del>"La mejor calidad al mejor precio."</del></div>
+        <div class="dd-item"><strong>Reírse de mamás o papás.</strong> Ríete con — nunca a costa de.</div>
+      </div>
+    </div>
+
+    <!-- VOCABULARY -->
     <div class="vocab-grid">
-      <div class="vocab-card yes reveal">
-        <div class="vocab-title">Palabras que SÍ usamos</div>
+      <div class="vocab-box vocab-yes reveal">
+        <div class="vocab-head">Palabras que SÍ usamos</div>
         <div class="vocab-words">
-          <span>presencia</span><span>cotidiano</span><span>habitar</span><span>carácter</span>
-          <span>pausa</span><span>intención</span><span>lúcido</span><span>cálido</span>
-          <span>decidir</span><span>afinar</span><span>raíz</span><span>casa</span>
+          <span>casa</span><span>familia</span><span>vivir</span><span>jugar</span><span>aguantar</span><span>elegir</span><span>durar</span><span>divertido</span><span>cotidiano</span><span>cercano</span><span>hogar</span><span>patio</span><span>cocina</span><span>cancha</span><span>cumpleaños</span><span>regalo</span><span>calidad</span><span>criterio</span>
         </div>
       </div>
-      <div class="vocab-card no reveal">
-        <div class="vocab-title">Palabras que NUNCA usamos</div>
+      <div class="vocab-box vocab-no reveal">
+        <div class="vocab-head">Palabras que NUNCA usamos</div>
         <div class="vocab-words">
-          <span>journey</span><span>mindset</span><span>empoderamiento</span><span>zen</span><span>holístico</span>
+          <span>premium</span><span>exclusivo</span><span>lujo</span><span>oasis</span><span>journey</span><span>mindset</span><span>transforma tu vida</span><span>experiencia única</span><span>la mejor</span><span>elevar</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CHECKLIST INTERACTIVO -->
-<section class="checklist-section" id="checklist">
+<!-- IMAGEN -->
+<section class="section section-imagen" id="imagen">
   <div class="container">
-    <div class="section-label reveal"><span></span>Antes de Publicar</div>
-    <h2 class="section-title reveal">Brand Checklist <em>interactivo.</em></h2>
-    <p class="section-desc reveal">Cualquier pieza de comunicación debe responder "sí" a estas 10 preguntas antes de publicarse.</p>
+    <div class="section-label reveal"><span></span>Sección 3 · La Imagen</div>
+    <h2 class="section-title reveal">Amarillo sol, rosa atrevido. <em>Sin pedir permiso.</em></h2>
+    <p class="section-desc reveal">La paleta grita alegría familiar, juego y vida activa. El amarillo y el rosa no son decoración: son la marca. Haz click en cualquier color para copiar el HEX.</p>
 
-    <div class="checklist-progress">
-      <div class="progress-label">
-        <span>Completado</span>
-        <strong><span id="progressCount">0</span> / 10</strong>
+    <!-- PALETTE -->
+    <div class="palette-grid">
+      <div class="color-card reveal" data-hex="#FFF145" style="background:#FFF145;color:#1A1B3A">
+        <div class="color-name">Sol Izan</div>
+        <div class="color-hex">#FFF145</div>
+        <div class="color-use">Acentos · CTAs · Juguetes</div>
+        <div class="color-prop">10%</div>
       </div>
-      <div class="progress-bar">
-        <div class="progress-fill" id="progressFill"></div>
+      <div class="color-card reveal" data-hex="#FF355E" style="background:#FF355E;color:#F4EFE6">
+        <div class="color-name">Rosa Vivo</div>
+        <div class="color-hex">#FF355E</div>
+        <div class="color-use">Botones · Deporte · Campañas</div>
+        <div class="color-prop">15%</div>
+      </div>
+      <div class="color-card reveal" data-hex="#1A1B3A" style="background:#1A1B3A;color:#F4EFE6">
+        <div class="color-name">Noche Izan</div>
+        <div class="color-hex">#1A1B3A</div>
+        <div class="color-use">Tipografía · Hogar serio</div>
+        <div class="color-prop">20%</div>
+      </div>
+      <div class="color-card reveal" data-hex="#F4EFE6" style="background:#F4EFE6;color:#1A1B3A">
+        <div class="color-name">Lino Casa</div>
+        <div class="color-hex">#F4EFE6</div>
+        <div class="color-use">Fondos · Papelería · Bolsas</div>
+        <div class="color-prop">55%</div>
       </div>
     </div>
 
-    <div class="checklist-grid">
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿Es <strong>cálida, audaz y lúcida</strong> al mismo tiempo?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿El copy se puede leer en voz alta sin sonar impostado?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿Evita clichés de wellness (<em>journey, mindset, transformación, zen</em>)?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿La paleta respeta la proporción 60/20/15/5?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿Bricolage Grotesque solo para titulares, Inter para cuerpo?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿Hay un elemento de especificidad <strong>latinoamericana</strong>?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿El logo tiene su zona de protección intacta?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿Las fotos muestran personas reales, no stock?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿El CTA es una acción concreta, no una abstracción?</span>
-      </label>
-      <label class="check-item reveal">
-        <input type="checkbox">
-        <span class="check-mark"></span>
-        <span class="check-text">¿Alguien nuevo entendería qué es Casa Izan en 10 segundos?</span>
-      </label>
+    <div class="proportion-bar reveal">
+      <div class="prop-label">Proporción recomendada</div>
+      <div class="prop-track">
+        <div class="prop-seg" style="width:55%;background:#F4EFE6;color:#1A1B3A">55% Lino</div>
+        <div class="prop-seg" style="width:20%;background:#1A1B3A;color:#F4EFE6">20% Noche</div>
+        <div class="prop-seg" style="width:15%;background:#FF355E;color:#F4EFE6">15% Rosa</div>
+        <div class="prop-seg" style="width:10%;background:#FFF145;color:#1A1B3A">10% Sol</div>
+      </div>
+    </div>
+
+    <!-- TYPOGRAPHY -->
+    <div class="typo-grid">
+      <div class="typo-card reveal">
+        <div class="typo-label">Display · Bricolage Grotesque</div>
+        <div class="typo-sample typo-display">Vive tu casa.</div>
+        <div class="typo-meta">Bold · ExtraBold · Titulares, señalética, nombres de categoría.</div>
+      </div>
+      <div class="typo-card reveal">
+        <div class="typo-label">Cuerpo · Inter</div>
+        <div class="typo-sample typo-body">Una casa no son paredes. Una casa es lo que pasa adentro — la pelota en el pasillo, la olla buena en la cocina.</div>
+        <div class="typo-meta">Regular · SemiBold · Bold. Cuerpo, etiquetas, precios y CTAs.</div>
+      </div>
+    </div>
+
+    <!-- PHOTO STYLE -->
+    <div class="photo-style reveal">
+      <div class="photo-col photo-yes">
+        <div class="photo-head">✓ SÍ</div>
+        <ul>
+          <li>Familias bolivianas reales, todas las edades y tonos de piel</li>
+          <li>Casas con uso: cocinas vividas, patios con desgaste</li>
+          <li>Niños jugando sin posar · rodillas peladas, pelota embarrada</li>
+          <li>Productos en contexto, no fondo blanco aséptico</li>
+          <li>Luz natural boliviana · altiplano duro, valles cálidos</li>
+        </ul>
+      </div>
+      <div class="photo-col photo-no">
+        <div class="photo-head">✕ NO</div>
+        <ul>
+          <li>Stock de familias blancas norteamericanas</li>
+          <li>Niños posando con sonrisa forzada</li>
+          <li>Productos flotando en fondos gradientes</li>
+          <li>Casas de revista sin rastro de vida</li>
+          <li>Estereotipos de "familia tradicional" única</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOUCHPOINTS -->
+<section class="section section-touchpoints" id="touchpoints">
+  <div class="container">
+    <div class="section-label reveal"><span></span>Sección 4 · Los Touchpoints</div>
+    <h2 class="section-title reveal">Donde la marca <em>toca tierra.</em></h2>
+
+    <div class="touchpoints-grid">
+      <article class="tp-card reveal">
+        <div class="tp-icon">🏢</div>
+        <h3>Tienda Física</h3>
+        <p>El touchpoint más importante. Fachada con logo grande en Sol Izan sobre muro Noche. Tres zonas divididas por señalética tipográfica grande, cada una con su color acento. Pasillos anchos, música familiar, zona de juego gratuita, personal en Rosa o Sol identificable de lejos.</p>
+      </article>
+      <article class="tp-card reveal">
+        <div class="tp-icon">💻</div>
+        <h3>E-commerce</h3>
+        <p>Hero con escena familiar real en Lino Casa. Tres puertas visibles a las categorías. Página de producto con foto en uso, precio sin esconder, descripción en voz de marca y sección "Por qué lo elegimos".</p>
+      </article>
+      <article class="tp-card reveal">
+        <div class="tp-icon">📱</div>
+        <h3>Redes Sociales</h3>
+        <p>Instagram principal con ratio 40% vida real / 30% producto / 20% promos / 10% comunidad. TikTok más juguetón. WhatsApp Business con respuestas humanas, no bot.</p>
+      </article>
+      <article class="tp-card reveal">
+        <div class="tp-icon">🪪</div>
+        <h3>Papelería</h3>
+        <p>Tarjeta Lino + Rosa en papel mate. Bolsa de kraft con logo Rosa a un color y asas de tela — duradera y reutilizable. Ticket con línea en voz de marca al final.</p>
+      </article>
+      <article class="tp-card reveal">
+        <div class="tp-icon">🎁</div>
+        <h3>Empaque de Regalo</h3>
+        <p>Papel Lino con patrón sutil de elementos gráficos (pelota, casa, juguete en línea continua). Moño Rosa. Gratis sobre cierto monto. Tarjeta en blanco con el ícono.</p>
+      </article>
+      <article class="tp-card reveal">
+        <div class="tp-icon">📧</div>
+        <h3>Email Marketing</h3>
+        <p>Mensual, nunca semanal. Lo nuevo de las tres categorías, producto del mes explicado en voz de marca, promos reales y sección "Casa llena" con historias de clientes.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MANIFIESTO -->
+<section class="manifesto section" id="manifiesto">
+  <div class="container">
+    <div class="section-label reveal"><span></span>Sección 5 · Manifiesto</div>
+    <blockquote class="reveal">
+      Una casa no son paredes. Una casa es <em>el arroz que se pegó en la olla buena el domingo.</em> Es la pelota embarrada que entra sin pedir permiso. Es el juguete que sobrevivió tres cumpleaños y una mudanza. Es la cocina abierta, el patio ruidoso, la cama deshecha porque alguien jugó encima.<br><br>
+      Nosotros no vendemos decoración. Vendemos las cosas que hacen posible esa vida: la olla, la pelota, el juguete, el edredón, la raqueta, el peluche, la licuadora, la bicicleta. <span class="highlight">Tres mundos bajo un mismo techo</span>, elegidos con criterio y calidez, para familias bolivianas que quieren una casa llena, no una casa bonita.
+      <span class="battle-cry">Pasa. Esto también es tu casa.</span>
+    </blockquote>
+  </div>
+</section>
+
+<!-- TERMÓMETRO DE MARCA (replaces checklist) -->
+<section class="section section-termometro" id="termometro">
+  <div class="container">
+    <div class="section-label reveal"><span></span>Sección 6 · Reglas de Consistencia</div>
+    <h2 class="section-title reveal">Termómetro de <em>marca.</em></h2>
+    <p class="section-desc reveal">Escribe un titular, caption, email o cualquier frase y el termómetro la analiza en vivo contra el vocabulario del manual. Te dice qué tan "Casa Izan" suena, qué palabras delatan lenguaje corporativo o de wellness y qué palabras de marca ya estás usando bien.</p>
+
+    <div class="termo-tool reveal">
+      <div class="termo-input-wrap">
+        <label for="termoInput">Tu copy</label>
+        <textarea id="termoInput" rows="5" placeholder="Ej: Transforma tu hogar en un oasis premium de experiencias únicas…"></textarea>
+        <div class="termo-suggestions">
+          Prueba con:
+          <button class="termo-example" data-text="Transforma tu hogar en un oasis premium de experiencias únicas.">Ejemplo corporativo</button>
+          <button class="termo-example" data-text="Llegaron las pelotas que aguantan el patio, la cancha y hasta el gato. Garantía real.">Ejemplo Casa Izan</button>
+          <button class="termo-example" data-text="Elevamos tu journey familiar con la mejor calidad del mercado.">Ejemplo wellness</button>
+        </div>
+      </div>
+
+      <div class="termo-output">
+        <div class="termo-gauge">
+          <div class="gauge-ring">
+            <svg viewBox="0 0 120 120" width="180" height="180">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(26,27,58,0.08)" stroke-width="12"/>
+              <circle id="gaugeArc" cx="60" cy="60" r="52" fill="none" stroke="var(--rosa)" stroke-width="12" stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="326.7" transform="rotate(-90 60 60)"/>
+            </svg>
+            <div class="gauge-center">
+              <div class="gauge-score" id="termoScore">—</div>
+              <div class="gauge-label">Casa Izan</div>
+            </div>
+          </div>
+          <div class="termo-verdict" id="termoVerdict">Escribe algo para ver el análisis.</div>
+        </div>
+
+        <div class="termo-metrics">
+          <div class="metric">
+            <div class="metric-label">Palabras de marca</div>
+            <div class="metric-bar"><div id="metricYes" class="metric-fill metric-fill-yes" style="width:0%"></div></div>
+            <div class="metric-tags" id="tagsYes"></div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Palabras prohibidas</div>
+            <div class="metric-bar"><div id="metricNo" class="metric-fill metric-fill-no" style="width:0%"></div></div>
+            <div class="metric-tags" id="tagsNo"></div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Tono</div>
+            <div class="metric-tone-grid">
+              <div class="tone-chip" id="chipCalido">Cálido</div>
+              <div class="tone-chip" id="chipVibrante">Vibrante</div>
+              <div class="tone-chip" id="chipCercano">Cercano</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="inamovibles reveal">
+      <div class="ina-title">Inamovibles</div>
+      <ul>
+        <li>Los cuatro HEX de la paleta</li>
+        <li>El logo y su proporción</li>
+        <li>Arquetipo: Hombre Común + Bufón</li>
+        <li>Cuatro valores: Criterio, Calidez, Juego, Raíz</li>
+        <li>Prohibición de jerga premium / wellness</li>
+        <li>Siempre "tú", nunca "usted"</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -686,17 +501,43 @@
     <div class="fs-2"></div>
   </div>
   <div class="footer-content">
-    <div class="footer-line"></div>
-    <h2>Vive con carácter.<br><span>Vive en casa.</span></h2>
-    <p>¿Listo para construir algo que importe? Hablemos.</p>
-    <div class="footer-actions">
-      <a href="mailto:hola@casaizan.com" class="btn btn-dark">hola@casaizan.com</a>
-      <a href="#hero" class="btn btn-ghost">Volver arriba ↑</a>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <img src="icono logo.png" alt="" class="logo-mark">
+          <span>Casa Izan</span>
+        </a>
+        <p>Manual de Marca v2.0. Hogar, deporte y juguetes con criterio, para familias bolivianas que quieren una casa vivida.</p>
+        <button class="btn btn-primary" type="button" onclick="window.print()">Descargar PDF →</button>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Manual</h5>
+          <a href="#que-es">Qué es</a>
+          <a href="#alma">Alma</a>
+          <a href="#voz">Voz</a>
+          <a href="#imagen">Imagen</a>
+        </div>
+        <div class="footer-col">
+          <h5>Aplicación</h5>
+          <a href="#touchpoints">Touchpoints</a>
+          <a href="#manifiesto">Manifiesto</a>
+          <a href="#termometro">Termómetro</a>
+        </div>
+        <div class="footer-col">
+          <h5>Marca</h5>
+          <a href="#hero">Casa Izan</a>
+          <a href="#">La Paz · Bolivia</a>
+          <a href="#">2026 · v2.0</a>
+        </div>
+      </div>
     </div>
+    <div class="footer-line"></div>
+    <h2>Vive tu casa.</h2>
     <div class="footer-meta">
-      <div>Casa Izan · Brand Book v1.0</div>
-      <div>La Paz, Bolivia · 2026</div>
-      <div>Diseñado con audacia y lucidez</div>
+      <div>Casa Izan · Bolivia</div>
+      <div>© 2026 · Manual de Marca v2.0</div>
+      <div>Hecho con criterio en La Paz</div>
     </div>
   </div>
 </footer>
