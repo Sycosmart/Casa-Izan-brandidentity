@@ -1,7 +1,7 @@
 # BRAND BOOK — CASA IZAN
 ### Vive tu casa.
 
-> **Manual de marca v2.0** · La Paz, Bolivia · 2026
+> **Manual de marca v2.0** · Bolivia · 2026
 > *Reemplaza completamente la versión 1.0 (posicionamiento de bienestar).*
 
 ---
@@ -72,7 +72,7 @@ Casa Izan es una tienda boliviana multi-categoría —hogar, deporte y juguetes�
 **Hacemos que cada casa se viva mejor.** Reunimos productos para el hogar, el deporte y el juego con una curaduría que prioriza lo que funciona, dura y hace feliz a una familia boliviana real.
 
 ### Visión a 5 Años (2031)
-Ser la tienda multi-categoría familiar más querida de Bolivia, presente en las principales ciudades del país (La Paz, Santa Cruz, Cochabamba) con tiendas físicas memorables y una plataforma online que lleva Casa Izan a todo el territorio. Que cuando una familia boliviana piense en equipar su casa, entrenar a su equipo o regalar algo a sus hijos, Casa Izan sea la primera respuesta.
+Ser la tienda multi-categoría familiar más querida de Bolivia. Abrir nuestra primera tienda física en Santa Cruz y consolidar una plataforma online con envíos a nivel nacional, para que cualquier familia boliviana —esté donde esté— pueda recibir Casa Izan en su puerta. Que cuando una familia piense en equipar su casa, entrenar a su equipo o regalar algo a sus hijos, Casa Izan sea la primera respuesta.
 
 ### 4 Valores Fundamentales
 
@@ -129,7 +129,7 @@ Casa Izan es una mujer de 38 años, mamá de dos, boliviana de corazón y de dom
    *Ejemplo:* "Tres precios, tres calidades. Elige el que te sirve hoy."
 
 5. **Celebra lo boliviano con orgullo natural, sin folklore forzado.**
-   *Ejemplo:* "Hecho en Cochabamba. Así de simple." (Nunca: "inspirado en la sabiduría ancestral andina".)
+   *Ejemplo:* "Hecho en Bolivia. Así de simple." (Nunca: "inspirado en la sabiduría ancestral andina".)
 
 #### ❌ DON'T
 
@@ -261,7 +261,7 @@ La jerarquía se mantiene igual a v1.0 (ver sistema tipográfico en landing page
 - Descripción en voz de marca (no ficha técnica fría, aunque incluye specs).
 - Sección "Por qué lo elegimos" (el criterio de curaduría explícito).
 - Recomendaciones cruzadas entre categorías ("Si compraste esta pelota, también te puede servir...").
-- Disponibilidad por ciudad (La Paz / Santa Cruz / Cochabamba).
+- Cobertura de envíos a nivel nacional (todo Bolivia).
 
 **Carrito y checkout:** simple, sin fricciones, con opciones de envío a domicilio y retiro en tienda.
 

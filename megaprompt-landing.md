@@ -31,7 +31,7 @@ Antes de generar código, razona internamente sobre:
 ### Identidad Core
 
 - **Nombre:** Casa Izan
-- **Origen:** La Paz, Bolivia · con proyección latinoamericana
+- **Origen:** Bolivia · con proyección latinoamericana
 - **Industria:** Bienestar, serenidad mental y soluciones de vida moderna
 - **Tagline oficial:** *Vivir con carácter. Vivir en casa.*
 - **Propuesta de valor:** Casa Izan es una filosofía de vida que fusiona la calidez humana con la eficiencia moderna. No es una pausa del mundo — es una manera de habitarlo.
@@ -174,7 +174,7 @@ Genera una landing page single-page con las siguientes secciones **en este orden
 - Título H2: "Lo que dicen quienes ya están en casa." (o reformulación).
 - 3 testimonios en grid (collapse a slider en mobile).
 - Cada testimonio: quote en Bricolage Grotesque 500 size 22-28px, nombre + rol + ciudad abajo, foto circular 60px (usar placeholder con iniciales sobre fondo Noche o Rosa).
-- Al menos 1 testimonio debe ser de Bolivia específicamente (La Paz, Santa Cruz o Cochabamba).
+- Al menos 1 testimonio debe ser de Bolivia específicamente (sin mencionar ciudades concretas).
 - Inventa testimonios creíbles, con lenguaje natural, NO promocionales. Que suenen a personas reales, no a copy de marketing.
 
 ### 7. FAQ (acordeón)
@@ -196,7 +196,7 @@ Genera una landing page single-page con las siguientes secciones **en este orden
 - Fondo: Rosa Atrevido con texturas de fondo decorativas (dos círculos Sol/Noche muy tenues en las esquinas).
 - Logo Casa Izan centrado arriba.
 - Links en 3 columnas: Marca (filosofía, valores, manifiesto), Comunidad (newsletter, instagram, contacto), Legal (privacidad, términos).
-- Línea inferior: "Casa Izan · La Paz, Bolivia · 2026" + redes sociales (solo iconos Instagram, YouTube).
+- Línea inferior: "Casa Izan · Bolivia · 2026" + redes sociales (solo iconos Instagram, YouTube).
 - Copyright muy discreto.
 
 ---
